@@ -1,0 +1,6 @@
+{ "log": "hello" }
+{ "log": "world" }
+NOT JSON LINE
+{ "log": "hello" }
+{ "log": "world" }
+
