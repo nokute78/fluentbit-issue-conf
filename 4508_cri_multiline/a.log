@@ -1,0 +1,20 @@
+2021-12-22T02:36:56.941050368Z stdout F single line...
+2021-12-22T02:36:56.941096311Z stdout F Dec 14 06:41:08 Exception in thread "main" java.lang.RuntimeException: Something has gone wrong, aborting!
+2021-12-22T02:36:56.941101802Z stdout F     at com.myproject.module.MyProject.badMethod(MyProject.java:22)
+2021-12-22T02:36:56.9411043Z stdout F     at com.myproject.module.MyProject.oneMoreMethod(MyProject.java:18)
+2021-12-22T02:36:56.94110682Z stdout F     at com.myproject.module.MyProject.anotherMethod(MyProject.java:14)
+2021-12-22T02:36:56.941109302Z stdout F     at com.myproject.module.MyProject.someMethod(MyProject.java:10)
+2021-12-22T02:36:56.94111173Z stdout F     at com.myproject.module.MyProject.main(MyProject.java:6)
+2021-12-22T02:36:56.941114604Z stdout F another line...
+2021-12-22T02:36:56.941116989Z stdout F panic: my panic
+2021-12-22T02:36:56.94111914Z stdout F 
+2021-12-22T02:36:56.941122703Z stdout F goroutine 4 [running]:
+2021-12-22T02:36:56.941125769Z stdout F panic(0x45cb40, 0x47ad70)
+2021-12-22T02:36:56.941128769Z stdout F   /usr/local/go/src/runtime/panic.go:542 +0x46c fp=0xc42003f7b8 sp=0xc42003f710 pc=0x422f7c
+2021-12-22T02:36:56.941131055Z stdout F main.main.func1(0xc420024120)
+2021-12-22T02:36:56.941133533Z stdout F   foo.go:6 +0x39 fp=0xc42003f7d8 sp=0xc42003f7b8 pc=0x451339
+2021-12-22T02:36:56.941135853Z stdout F runtime.goexit()
+2021-12-22T02:36:56.941138281Z stdout F   /usr/local/go/src/runtime/asm_amd64.s:2337 +0x1 fp=0xc42003f7e0 sp=0xc42003f7d8 pc=0x44b4d1
+2021-12-22T02:36:56.941140724Z stdout F created by main.main
+2021-12-22T02:36:56.941142941Z stdout F   foo.go:5 +0x58
+2021-12-22T02:36:56.941145054Z stdout F 
